@@ -10,7 +10,7 @@
     width: 800px;
 }
 
-.container h2{
+.header h2{
     text-align: center;
     padding-top: 5px;
     font-weight: 100%;
@@ -71,4 +71,8 @@ tr{
 .field {
     width: 85%;
     margin: auto;    
+}
+
+.main_section {
+    background-image: url("cover.jpg");
 }
