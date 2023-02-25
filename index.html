@@ -8,34 +8,29 @@
     <title> Laguna State Polytechnic University - Los Banos</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
-
 <body>
     <div class="field">
         <div class="container">
             <h2> LAGUNA STATE POLYTECHNIC UNIVERSITY - LOS BANOS CAMPUS</h2>
             <h2> CERTIFICATE OF REGISTRATION </h2>
             <h2>Second Semester A.Y. 2022-2023</h2>
-        
         </div>
             <h3> Student ID: <input type="text" placeholder="Input here" id="test" required></h3>
-        
         <div class="section">
             <h3>Grade and Strand: <select name="section" id="grade_sec"></h3>
-                <option value="12-AFA" disabled selected hidden> Select here</option>
-                <option value="12-AFA" >12-AFA</option>
-                <option value="12-ICT">12-ICT</option>
-                <option value="12-ABM">12-ABM</option>
-                <option value="12-HUMMS B">12-HUMMS B</option>
-            </select></p>
+            <option value="12-AFA" disabled selected hidden> Select here</option>
+            <option value="12-AFA" >12-AFA</option>
+            <option value="12-ICT">12-ICT</option>
+            <option value="12-ABM">12-ABM</option>
+            <option value="12-HUMMS B">12-HUMMS B</option>
         </div>
-
         <div class="name_btn">
             <h3>Name:  <span id="name"></span> </h3>
             <button onclick="show()">Show</button>
         </div>
-
         <hr>
         <table id="ICT" style="display:none">
+            <thead>
             <tr>
                 <th> Course/s </th>
                 <th> Descriptive Title </th>
@@ -45,7 +40,10 @@
                 <th> Day </th>
                 <th> Time </th>
                 <th> Room </th>
-                <th> Instructor </th></tr>
+                <th> Instructor </th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>SHA FIL12</td>
                 <td>Filipino sa Piling Larangan (Akademik)</td>
@@ -55,7 +53,8 @@
                 <td>WED</td>
                 <td>09:30 AM - 11:30 AM</td>
                 <td>JKT 7</td>
-                <td> M. Monreal </td></tr>
+                <td> M. Monreal </td>
+            </tr>
             <tr>
                 <td></td>
                 <td></td>
@@ -156,9 +155,10 @@
                 <td>07:30 AM - 11:30 AM</td>
                 <td>JKT 4</td>
                 <td>A. Matute Jr.</td></tr>
+            </tbody>
         </table>
-
         <table id="ABM" style="display:none">
+            <thead>
             <tr>
                 <th> Course/s </th>
                 <th> Descriptive Title </th>
@@ -168,7 +168,10 @@
                 <th> Day </th>
                 <th> Time </th>
                 <th> Room </th>
-                <th> Instructor </th></tr>
+                <th> Instructor </th>
+            </tr>
+            </thead>
+            <tbody>
             <tr>
                 <td>SHA FIL12</td>
                 <td>Filipino sa Piling Larangan (Akademik)</td>
@@ -188,11 +191,11 @@
                 <td>WED</td>
                 <td>01:00 AM - 2:00 AM</td>
                 <td>JKT 7</td>
-                <td> E. Parilla</td></tr>
+                <td> E. Parilla</td>
+            </tr>
+            </tbody>
         </table>
-        </div>
     </div>
-
 </body>
     <script src="script.js"></script>
 </html>
