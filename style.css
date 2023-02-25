@@ -73,6 +73,9 @@ tr{
     margin: auto;    
 }
 
-.main_section {
-    background-image: url("cover.jpg");
+body {
+    background-image: url("cover.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
