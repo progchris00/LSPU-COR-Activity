@@ -1,81 +1,112 @@
-/* body {
-    background-image: url("cover.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
-.hero {
-    background-color: #38444d;
-    width: 800px;
+#logo {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.header h2{
-    text-align: center;
-    padding-top: 5px;
-    font-weight: 100%;
-    margin: 0;
-
+.card-text{
+    text-align: justify;
 }
 
-.section{
-    width: 25%;
-    font-size: 15px;
-    margin-left: 100px;
+body{
+    background-color: #f0f2f5;
+}
+
+.container a{
+    color: white;
+    font-size: 0.925rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-title{
     text-align: left;
-    display: left;
-    margin-top: -70px;
-    padding: 5px;
-    background-color: white;
-    margin-bottom: 5px;
-    float: right;
-  }
+    font-weight: bold;
+}
 
-.name_btn button{
-    width: 20%;
-    font-size: 15px;
-    margin-right: 60px;
+.inner {
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+li{
+    margin-right: 25px;
+}
+
+.dropdown-menu a{
+    color: black;
     text-align: center;
-    display: left;
-    margin-top: -45px;
-    padding: 5px;
-    margin-bottom: 5px;
-    float: right;
+}
+
+.container a:hover{
+    color: #0d0d64;
+}
+
+/* start table css */
+
+.row_one{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.row_two{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
     background-color: #cacaca;
-  }
+    border-radius: 10px;
+    border: 2px black solid;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.row_two h3{
+    margin-top: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
 
 table {
-    margin: 0 auto;
-    font-size: 18px;
-    background-color: #ffffff; 
-    filter: alpha(opacity=40); 
-    opacity: 0.95;
-    border:2px black solid;
+    margin: auto;
+    font-size: 16px;
+    border: 1.5px black solid;
     border-collapse: collapse;
-  }
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    background-image: url('images/cover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 th {
-    background-color: #cacaca;
+    background-color: #0d6efd;
     margin: 0;
     padding: 10px;
+    color: white;
+    text-align: center;
 }
 
 td {
     padding: 10px;
+    
 }
 
-tr{
-    border:2px black solid;
+tr {
+    border: 1px black solid;
 }
 
-.field {
-    width: 85%;
-    margin: auto;    
-}
-
-body {
-    background-image: url("cover.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
