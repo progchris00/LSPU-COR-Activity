@@ -87,10 +87,9 @@ table {
     border-collapse: collapse;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.8); 
-    /* background-image: url('images/cover.png'); */
     background-repeat: no-repeat;
     background-position: center;
-    
+    margin-bottom: 2%;
     
 }
 
@@ -106,10 +105,6 @@ td {
     padding: 10px;
     
 }
-
-/* tr {
-    border: 1px black solid;
-} */
 
 .content-table tbody tr:nth-of-type(odd) {
     background-color: #f3f3f3;
