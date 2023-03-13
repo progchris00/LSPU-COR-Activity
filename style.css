@@ -84,13 +84,14 @@ li{
 table {
     margin: auto;
     font-size: 16px;
-    border: 1.5px black solid;
     border-collapse: collapse;
     width: 90%;
     background-color: rgba(255, 255, 255, 0.8); 
-    background-image: url('images/cover.png');
+    /* background-image: url('images/cover.png'); */
     background-repeat: no-repeat;
     background-position: center;
+    
+    
 }
 
 th {
@@ -106,7 +107,29 @@ td {
     
 }
 
-tr {
+/* tr {
     border: 1px black solid;
+} */
+
+.content-table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
 }
 
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 3px solid #0d6efd;
+}
+
+.content-table table {
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.20);
+}
+
+.content-table tbody td.title {
+    font-weight: bold;
+    color: #0d6efd;
+}
